@@ -1,0 +1,43 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.generated/
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/Runner.xcworkspace
+ios/.symlinks/
+ios/Flutter/ephemeral/
+
+# Android
+.android/
+**/gradle-wrapper.jar
+**/gradle-wrapper.properties
+**/local.properties
+**/build/
+
+# VS Code or IntelliJ project files
+*.iml
+.idea/
+.vscode/
+
+# Generated files
+*.log
+*.lock
+*.tmp
+
+# Secrets / environment files
+.env
+*.keystore
+*.jks
+# Firebase credentials
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
